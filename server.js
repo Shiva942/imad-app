@@ -4,7 +4,7 @@ var path = require('path');
 var crypto = required('crypto');
 
 var app = express();
-var Pool = require('pg').Pool;
+app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
