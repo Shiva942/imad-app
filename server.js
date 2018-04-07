@@ -29,8 +29,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/WhatsApp Image 2017-12-07 at 5.31.32 PM.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'WhatsApp Image 2017-12-07 at 5.31.32 PM.jpeg'));
 });
 
 var port = 80;
